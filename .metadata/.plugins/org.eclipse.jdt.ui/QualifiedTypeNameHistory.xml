@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="entities.Triangle"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="entities.Calculator"/>
+<fullyQualifiedTypeName name="util.CurrentConverter"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.ContactInfo"/>
+<fullyQualifiedTypeName name="entities.conta"/>
+<fullyQualifiedTypeName name="entities.Conta"/>
+<fullyQualifiedTypeName name="com.sun.deploy.ref.AppModel.Type"/>
+<fullyQualifiedTypeName name="java.net.Proxy.Type"/>
+<fullyQualifiedTypeName name="com.sun.tools.corba.se.idl.constExpr.Equal"/>
+<fullyQualifiedTypeName name="entities.Estudantes"/>
+<fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="entities.Employee"/>
+<fullyQualifiedTypeName name="com.sun.javafx.tk.ScreenConfigurationAccessor"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.analysis.Value"/>
+<fullyQualifiedTypeName name="entities.Worker"/>
+<fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
+<fullyQualifiedTypeName name="entities.Department"/>
+<fullyQualifiedTypeName name="entities.HourContract"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="entities.Comment"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="entities.Post"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Calendar.Builder"/>
+<fullyQualifiedTypeName name="entities.Client"/>
+<fullyQualifiedTypeName name="java.awt.FontFormatException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
+<fullyQualifiedTypeName name="entities.OrderItem"/>
+<fullyQualifiedTypeName name="entities.Product"/>
+<fullyQualifiedTypeName name="entities.Order"/>
+<fullyQualifiedTypeName name="com.sun.javafx.binding.StringFormatter"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="com.sun.glass.ui.Pixels.Format"/>
+</qualifiedTypeNameHistroy>

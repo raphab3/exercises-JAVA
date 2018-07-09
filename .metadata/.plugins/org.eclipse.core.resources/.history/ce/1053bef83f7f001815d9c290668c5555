@@ -1,0 +1,10 @@
+package util;
+
+public class CurrentConverter {
+	
+	public static double IOF = 0.06; 
+	
+	public static double conversor(double valor, double dollar) {
+		return dollar * valor - (valor * IOF); 
+	}
+}

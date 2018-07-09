@@ -1,0 +1,12 @@
+package util;
+
+public class CurrentConverter {
+	
+	public static double IOF = 0.06; 
+	
+	public static double conversor(double dollar, double reais) {
+		double result = dollar * reais;
+		System.out.println();
+		return result -= (result * IOF); 
+	}
+}

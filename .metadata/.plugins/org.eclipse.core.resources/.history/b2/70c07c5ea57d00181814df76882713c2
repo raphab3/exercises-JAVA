@@ -1,0 +1,28 @@
+package entities;
+
+public class Student {
+	public double nome;
+	public double n1;
+	public double n2;
+	public double n3;
+	
+	public double notaFinal() {
+		return n1 + n2 + n3;
+	}
+	public void aprovacao() {
+		if (notaFinal() > 60){
+			System.out.println(notaFinal());
+			System.out.println("Pass");
+		}else {
+			System.out.println("Failed");
+			double resto = 60 - notaFinal();
+			System.out.println("Missing " + resto + " Points");
+		}
+	}
+	@Override
+	public String toString() {
+		return "FINAL GRADE = " , aprovacao()) ;
+	}
+	
+	
+}

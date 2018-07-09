@@ -1,0 +1,6 @@
+package util;
+
+public class CurrentConverter {
+	
+	public static final double COT = 3.10; 
+}

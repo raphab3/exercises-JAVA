@@ -1,0 +1,74 @@
+package entities;
+
+public class Conta {
+	private int nConta;
+	private String nome;
+	private double deposito;
+	private double saldo;
+
+	public Conta(int nConta, String nome, double deposito) {
+		this.nConta = nConta;
+		this.nome = nome;
+		this.deposito = deposito;
+	}
+
+	public void depositar(double valor) {
+		this.saldo += valor;
+	}
+	
+	public void sacar(double valor) {
+		this.saldo -= valor;
+	}
+
+	public int getConta() {
+		return nConta;
+	}
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
+	public double getDeposito() {
+		return deposito;
+	}
+
+
+	public void setDeposito(double deposito) {
+		this.deposito = deposito;
+	}
+
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	@Override
+	public String toString() {
+		return "Account data: " + nConta 
+				+ ", Holder: " + nome 
+				+ ", Balance: " + saldo
+				+ ", getConta()=" + getConta() + ", getNome()=" + getNome() + ", getDeposito()=" + getDeposito()
+				+ ", getSaldo()=" + getSaldo() + "]";
+	}
+
+	
+	
+	
+	
+	
+	
+}

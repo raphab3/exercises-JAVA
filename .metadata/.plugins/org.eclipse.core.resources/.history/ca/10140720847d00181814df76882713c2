@@ -1,0 +1,15 @@
+package entities;
+
+public class Product {
+	public String nome;
+	public double price;
+	public int quantity;
+	
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+	
+	public void addQuntity(int quantity) {
+		this.quantity += quantity; 
+	}
+}

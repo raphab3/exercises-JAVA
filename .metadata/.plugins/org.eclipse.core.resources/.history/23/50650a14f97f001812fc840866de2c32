@@ -1,0 +1,16 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Employee {
+	
+	Locale.setDefault(Locale.US);
+	
+	Scanner sc = new Scanner(System.in);
+	
+	List<String> list =  new ArrayList<>();
+	
+	
+}

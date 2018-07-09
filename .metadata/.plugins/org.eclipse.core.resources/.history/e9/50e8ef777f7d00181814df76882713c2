@@ -1,0 +1,5 @@
+package apli.entities;
+
+public class Product {
+
+}
