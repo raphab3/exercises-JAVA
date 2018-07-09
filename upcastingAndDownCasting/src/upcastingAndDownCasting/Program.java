@@ -39,6 +39,23 @@ public class Program {
 			bacc.loan(5000.0);
 			System.out.println("Loan sucessu! bacc eh BussinessAcount");
 		}
+		
+		Account conta = new Account(1001, "Rafael batista", 0.0);
+		conta.deposit(1000.0);
+		System.out.println("Saldo, in conta :" + conta.getBalance());
+		
+		conta.withdraw(200.0);
+		System.out.println("Saldo in conta: "+ conta.getBalance());
+		
+		//Método sobreposto
+		
+		BusinessAccount contaB = new BusinessAccount(1002, "Carla", 1000.0, 500.0);
+		contaB.withdraw(200.0);
+		System.out.println("Saldo, in contaB :" + contaB.getBalance());
+		
+		SavingsAccount contaP = new SavingsAccount(1004, "Rodrigo", 1000.0, 0.001);
+		contaP.withdraw(200.0);
+		System.out.println("Saldo, in contaP :" + contaP.getBalance());
 	}
 		
 
