@@ -54,8 +54,6 @@ public class RentalService {
 		
 		if(hours <= 12.0) {
 			basicPayment = pricePerHours * Math.ceil(hours);
-			System.out.println("per hours: " + pricePerHours + " ceil :" + Math.ceil(hours));
-			System.out.println("basicPayment: Em horas" + basicPayment);
 		}
 		else {
 			basicPayment =  pricePerDay * Math.ceil(hours/24) ;
