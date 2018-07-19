@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.sun.javafx.binding.StringFormatter"/>
-<fullyQualifiedTypeName name="com.sun.glass.ui.Pixels.Format"/>
 <fullyQualifiedTypeName name="entities.SavingsAccount"/>
 <fullyQualifiedTypeName name="entities.Account"/>
 <fullyQualifiedTypeName name="entities.BusinessAccount"/>
@@ -38,11 +36,8 @@
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="model.services.TaxService"/>
 <fullyQualifiedTypeName name="model.entities.Installments"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="model.services.OnlinePaymentService"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="sun.text.resources.cldr.ext.FormatData_ar_EH"/>
 <fullyQualifiedTypeName name="model.entities.Contract"/>
 <fullyQualifiedTypeName name="model.services.ContractService"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="com.diamante.domain.Printer"/>
 <fullyQualifiedTypeName name="com.diamante.domain.Scanner"/>
 <fullyQualifiedTypeName name="com.diamante.domain.ComboDevice"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="domain.PrintService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

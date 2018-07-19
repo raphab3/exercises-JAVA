@@ -18,6 +18,17 @@ public class PrintService<T> {
 		return list.get(0);
 	}
 	
+	
+	public Integer max(List<Integer> lista) {
+		Integer max = lista.get(0);
+		for(Integer item : lista) {
+			if(item.compareTo(max) > 0) {
+				max = item;
+			}
+		}
+		return max;
+	}
+	
 	public void print() {
 		if(!list.isEmpty()) {
 			System.out.println(list);
