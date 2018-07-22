@@ -25,17 +25,17 @@ public class Program {
 			
 			Integer total = 0;
 			String name = null;
-			Integer qtdVotos = null;
+			Integer qtdVotes = null;
 			while(line != null) {
 				name = line.split(",")[0];
-				qtdVotos = Integer.parseInt(line.split(",")[1]);
+				qtdVotes = Integer.parseInt(line.split(",")[1]);
 				
 				
 				if(votes.containsKey(name)) {
 					total = votes.get(name); //retorna o valor de acordo com a chave
-					votes.put(name, qtdVotos + total);
+					votes.put(name, qtdVotes + total);
 				}else {
-					votes.put(name, qtdVotos);
+					votes.put(name, qtdVotes);
 				}
 
 				line = br.readLine();
