@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="entities.Company"/>
 <fullyQualifiedTypeName name="model.entities.Reservation"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
@@ -26,7 +25,6 @@
 <fullyQualifiedTypeName name="model.services.TaxService"/>
 <fullyQualifiedTypeName name="model.entities.Installments"/>
 <fullyQualifiedTypeName name="model.services.OnlinePaymentService"/>
-<fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="sun.text.resources.cldr.ext.FormatData_ar_EH"/>
 <fullyQualifiedTypeName name="model.entities.Contract"/>
 <fullyQualifiedTypeName name="model.services.ContractService"/>
@@ -57,7 +55,9 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="lombok.ToString"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="entities.Urna"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>

@@ -20,6 +20,8 @@ public class Program {
 		Comment c1 = new Comment("Have a nice trip ");
 		Comment c2 = new Comment("Wow that's awesome! ");
 		
+		
+		
 		String moment1 = "21/06/2018 13:05:44";
 		String title1 = "Traveling to New Zealand ";
 		String content1 = "I'm going to visit this wonderful country! ";
