@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entities.Calculator;
 
-public class Program {
+public class Main {
 
 	public static void main(String[] args) {
 		
